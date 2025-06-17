@@ -365,6 +365,7 @@ export interface AdminUser extends Schema.CollectionType {
 export interface ApiArticleArticle extends Schema.CollectionType {
   collectionName: 'articles';
   info: {
+    description: '';
     displayName: 'Article';
     pluralName: 'articles';
     singularName: 'article';
@@ -378,7 +379,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
       'manyToOne',
       'api::category.category'
     >;
-    content: Attribute.Blocks;
+    content: Attribute.RichText;
     createdAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
       'api::article.article',
