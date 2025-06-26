@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_plan_section_basic_component_attractions",
+  "info": {
+    "displayName": "Attraction",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-component.string-array"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-component.image"
+    }
+  }
+}

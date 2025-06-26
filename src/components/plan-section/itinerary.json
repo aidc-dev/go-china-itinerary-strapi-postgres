@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_plan_section_itineraries",
+  "info": {
+    "displayName": "Itinerary",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "plans": {
+      "displayName": "Plan",
+      "type": "component",
+      "repeatable": true,
+      "component": "plan-section-basic-component.plan"
+    }
+  }
+}

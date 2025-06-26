@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_plan_section_basic_component_signatures",
+  "info": {
+    "displayName": "Signature",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-component.image"
+    }
+  }
+}

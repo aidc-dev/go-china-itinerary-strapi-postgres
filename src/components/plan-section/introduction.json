@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_plan_section_introductions",
+  "info": {
+    "displayName": "Introduction",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

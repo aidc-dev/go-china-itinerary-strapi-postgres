@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_plan_section_quick_overviews",
+  "info": {
+    "displayName": "Quick Overview",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "chinesesName": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "dailyCost": {
+      "type": "string"
+    },
+    "bestSeason": {
+      "type": "string"
+    },
+    "famousFor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-component.string-array"
+    }
+  }
+}

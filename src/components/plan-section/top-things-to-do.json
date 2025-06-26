@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_plan_section_top_things_to_dos",
+  "info": {
+    "displayName": "Top Things To Do",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tips": {
+      "type": "string"
+    },
+    "attractions": {
+      "displayName": "Attraction",
+      "type": "component",
+      "repeatable": true,
+      "component": "plan-section-basic-component.attraction"
+    }
+  }
+}

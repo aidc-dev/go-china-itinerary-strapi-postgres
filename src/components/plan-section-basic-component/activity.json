@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_basic_component_activities",
+  "info": {
+    "displayName": "Activity",
+    "icon": "angle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "activity": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-component.string-array"
+    }
+  }
+}

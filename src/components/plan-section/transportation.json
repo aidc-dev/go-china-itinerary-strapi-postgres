@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_plan_section_transportation",
+  "info": {
+    "displayName": "Transportation",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "localTransport": {
+      "type": "string"
+    },
+    "transportationOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plan-section-basic-component.transportation-option"
+    }
+  }
+}

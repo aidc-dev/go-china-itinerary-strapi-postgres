@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_plan_section_where_to_stays",
+  "info": {
+    "displayName": "Where To Stay",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "areas": {
+      "displayName": "Area",
+      "type": "component",
+      "repeatable": true,
+      "component": "plan-section-basic-component.area"
+    }
+  }
+}

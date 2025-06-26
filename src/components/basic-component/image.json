@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_basic_component_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

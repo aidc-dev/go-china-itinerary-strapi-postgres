@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_plan_section_food_guides",
+  "info": {
+    "displayName": "Food Guide",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "signatures": {
+      "displayName": "Signature",
+      "type": "component",
+      "repeatable": true,
+      "component": "plan-section-basic-component.signature"
+    },
+    "restaurants": {
+      "displayName": "Restaurant",
+      "type": "component",
+      "repeatable": true,
+      "component": "plan-section-basic-component.restaurant"
+    }
+  }
+}

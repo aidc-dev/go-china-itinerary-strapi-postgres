@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "singularName": "plan",
+    "pluralName": "plans",
+    "displayName": "Plan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "isBestPlan": {
+      "type": "boolean"
+    },
+    "tags": {
+      "displayName": "String Array",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-component.string-array"
+    },
+    "heroMedia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.hero-media"
+    },
+    "quickOverview": {
+      "displayName": "Quick Overview",
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.quick-overview"
+    },
+    "introduction": {
+      "displayName": "Introduction",
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.introduction"
+    },
+    "bestTimeToVisit": {
+      "displayName": "Best Time To Visit",
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.best-time-to-visit"
+    },
+    "transportation": {
+      "displayName": "Transportation",
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.transportation"
+    },
+    "whereToStay": {
+      "displayName": "Where To Stay",
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.where-to-stay"
+    },
+    "topThingsToDo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.top-things-to-do"
+    },
+    "foodGuide": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.food-guide"
+    },
+    "itineraries": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.itinerary"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

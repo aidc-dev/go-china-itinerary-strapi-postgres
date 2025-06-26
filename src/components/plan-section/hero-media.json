@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_plan_section_hero_medias",
+  "info": {
+    "displayName": "Hero Media",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "image",
+        "video"
+      ]
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-component.image"
+    }
+  }
+}

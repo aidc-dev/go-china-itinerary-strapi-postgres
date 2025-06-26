@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_plan_section_basic_component_plans",
+  "info": {
+    "displayName": "Plan",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "activities": {
+      "displayName": "Activity",
+      "type": "component",
+      "repeatable": true,
+      "component": "plan-section-basic-component.activity"
+    }
+  }
+}

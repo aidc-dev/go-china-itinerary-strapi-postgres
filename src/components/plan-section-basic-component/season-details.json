@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_plan_section_season_details",
+  "info": {
+    "displayName": "Season Details",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "spring": {
+      "type": "string"
+    },
+    "summer": {
+      "type": "string"
+    },
+    "autumn": {
+      "type": "string"
+    },
+    "winter": {
+      "type": "string"
+    }
+  }
+}

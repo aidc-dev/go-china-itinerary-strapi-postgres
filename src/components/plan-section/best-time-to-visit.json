@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_plan_section_best_time_to_visits",
+  "info": {
+    "displayName": "Best Time To Visit",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "idealSeasons": {
+      "type": "string"
+    },
+    "seasondetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section-basic-component.season-details"
+    }
+  }
+}

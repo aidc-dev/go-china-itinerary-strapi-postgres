@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_plan_section_basic_component_restaurants",
+  "info": {
+    "displayName": "Restaurant",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-component.image"
+    }
+  }
+}

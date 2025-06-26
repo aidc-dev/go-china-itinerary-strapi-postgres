@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_plan_section_basic_component_areas",
+  "info": {
+    "displayName": "Area",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
