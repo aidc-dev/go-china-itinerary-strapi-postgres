@@ -2,7 +2,8 @@
   "collectionName": "components_plan_section_transportation",
   "info": {
     "displayName": "Transportation",
-    "icon": "align-right"
+    "icon": "align-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,7 @@
       "type": "string"
     },
     "localTransport": {
-      "type": "string"
+      "type": "text"
     },
     "transportationOptions": {
       "type": "component",
