@@ -19,11 +19,11 @@
       "type": "uid",
       "targetField": "name"
     },
-    "article": {
+    "plans": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToMany",
       "target": "api::plan.plan",
-      "inversedBy": "category"
+      "mappedBy": "category"
     }
   }
 }

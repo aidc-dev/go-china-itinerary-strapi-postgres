@@ -2,11 +2,12 @@
   "collectionName": "components_plan_section_quick_overviews",
   "info": {
     "displayName": "Quick Overview",
-    "icon": "adjust"
+    "icon": "adjust",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "chinesesName": {
+    "chineseName": {
       "type": "string"
     },
     "location": {
