@@ -92,6 +92,9 @@
     },
     "duration": {
       "type": "float"
+    },
+    "englishName": {
+      "type": "string"
     }
   }
 }
