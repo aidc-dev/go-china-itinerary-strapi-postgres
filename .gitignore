@@ -112,3 +112,11 @@ license.txt
 exports
 .cache
 build
+
+
+############################
+# Babel
+############################
+
+babel.config.js
+src/admin/app.js
