@@ -23,6 +23,17 @@
     },
     "views": {
       "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "heroMedia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plan-section.hero-media"
     }
   }
 }
