@@ -38,6 +38,15 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "visa",
+        "sim",
+        "dietary",
+        "payment"
+      ]
     }
   }
 }
