@@ -24,6 +24,12 @@
       "relation": "oneToMany",
       "target": "api::plan.plan",
       "mappedBy": "category"
+    },
+    "tips": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tip.tip",
+      "mappedBy": "category"
     }
   }
 }

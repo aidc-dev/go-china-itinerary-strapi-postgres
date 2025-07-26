@@ -95,6 +95,9 @@
     },
     "englishName": {
       "type": "string"
+    },
+    "view": {
+      "type": "integer"
     }
   }
 }
