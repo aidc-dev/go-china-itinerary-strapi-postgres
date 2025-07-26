@@ -34,6 +34,10 @@
       "type": "component",
       "repeatable": false,
       "component": "plan-section.hero-media"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
