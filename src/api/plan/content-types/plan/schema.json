@@ -98,6 +98,9 @@
     },
     "views": {
       "type": "integer"
+    },
+    "bestPlanContent": {
+      "type": "richtext"
     }
   }
 }
